@@ -135,9 +135,6 @@
  (net ae963ea6-196a-4d92-a3ff-5cf96928ff6f (auto true) (name "N6")
   (netclass 810c4091-fb3c-48ab-a0a2-f0f58723fcfb)
  )
- (net b2375acc-8d2e-4334-8260-095cdb7fc537 (auto true) (name "N11")
-  (netclass 810c4091-fb3c-48ab-a0a2-f0f58723fcfb)
- )
  (net b394b123-bda5-4ba4-969f-b4becee8aea5 (auto true) (name "N27")
   (netclass 810c4091-fb3c-48ab-a0a2-f0f58723fcfb)
  )
@@ -568,8 +565,11 @@
   (name "L1") (value "{{INDUCTANCE}}")
   (lock_assembly false)
   (attribute "INDUCTANCE" (type inductance) (unit nanohenry) (value "470"))
+  (device 8e5e4d32-a0b9-465f-b0a0-ef411d753e12
+   (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
+  )
   (signal 5b36d330-6f19-4391-8f95-1c2f6a658286 (net 3e4101a8-de92-4656-a2b9-d8e43f0b5c75))
-  (signal 777f11cd-9d4e-4b2b-aafa-7e7a836ff56e (net b2375acc-8d2e-4334-8260-095cdb7fc537))
+  (signal 777f11cd-9d4e-4b2b-aafa-7e7a836ff56e (net 3af59268-0bca-4dc3-8bb2-436f1e15779f))
  )
  (component 336ef4bb-a802-4e03-b6bb-7d9cc37c0404
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
@@ -650,8 +650,8 @@
   (device c96311ed-1df2-4870-a660-4355464dce08
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
-  (signal 0b773d61-fc7a-4825-86eb-c645d968024f (net b2375acc-8d2e-4334-8260-095cdb7fc537))
-  (signal 3f7d99cf-3b1f-4172-a2fb-d6aadcfdbc00 (net b2375acc-8d2e-4334-8260-095cdb7fc537))
+  (signal 0b773d61-fc7a-4825-86eb-c645d968024f (net 3af59268-0bca-4dc3-8bb2-436f1e15779f))
+  (signal 3f7d99cf-3b1f-4172-a2fb-d6aadcfdbc00 (net 3af59268-0bca-4dc3-8bb2-436f1e15779f))
   (signal 7a2b338d-4adb-42b3-bf52-d5e19ed007ab (net 3e4101a8-de92-4656-a2b9-d8e43f0b5c75))
   (signal 8116c8dc-854e-4ad0-a05d-0e7ba70410cc (net ec82421c-bc41-447f-a0e5-c121feb8dbd9))
   (signal e2316929-47d3-4307-ac4f-80166ad95056 (net d6e4cbe7-1df9-4423-b30f-926defadb315))
@@ -819,7 +819,7 @@
   (device e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
-  (signal 1c1c7abc-7b40-4f92-b533-f65604644db7 (net b2375acc-8d2e-4334-8260-095cdb7fc537))
+  (signal 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 3af59268-0bca-4dc3-8bb2-436f1e15779f))
   (signal 6d776f4d-2a7c-4128-a98a-dbb1dd861411 (net 0fdeb881-d4fc-46a6-bd94-900bffa0f764))
  )
  (component 6fb0e816-7cba-4cf3-8006-c9e3ec58fef6
@@ -1034,6 +1034,9 @@
   (name "C13") (value "{{CAPACITANCE}}")
   (lock_assembly false)
   (attribute "CAPACITANCE" (type capacitance) (unit picofarad) (value "100"))
+  (device e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed
+   (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
+  )
   (signal 1c1c7abc-7b40-4f92-b533-f65604644db7 (net f23ff469-726d-4358-81f5-3783b35d9ca9))
   (signal 6d776f4d-2a7c-4128-a98a-dbb1dd861411 (net 0fdeb881-d4fc-46a6-bd94-900bffa0f764))
  )
@@ -1058,7 +1061,7 @@
    (part "108-2" (manufacturer "Keystone Electronics")
    )
   )
-  (signal 116f1d1c-5861-4a78-b7b6-73d13906aa74 (net b2375acc-8d2e-4334-8260-095cdb7fc537))
+  (signal 116f1d1c-5861-4a78-b7b6-73d13906aa74 (net 3af59268-0bca-4dc3-8bb2-436f1e15779f))
   (signal 5f8e0342-4f88-494b-bd24-5d48f35a468d (net 0fdeb881-d4fc-46a6-bd94-900bffa0f764))
  )
  (component 9c01e0ac-79ab-464f-a981-24b97a0dcdf6
