@@ -1,4 +1,6 @@
 ESPmote_v1_Schematic.pdf | 7534937d-af46-4901-bd34-42f406f57e8f
+assembly/ESPmote_v1_BOM_Std.csv | ae93d8a6-da76-4b8c-9bee-42b967c74c52
+assembly/ESPmote_v1_PnP_Std.csv | 44b312d1-b6c4-45aa-8c7b-83a9742e3d48
 gerber/ESPmote_v1_COPPER-BOTTOM.gbr | a0316d86-2708-48ce-b7bf-476041c00e42
 gerber/ESPmote_v1_COPPER-TOP.gbr | a0316d86-2708-48ce-b7bf-476041c00e42
 gerber/ESPmote_v1_DRILLS-NPTH.drl | a0316d86-2708-48ce-b7bf-476041c00e42

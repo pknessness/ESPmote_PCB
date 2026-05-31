@@ -208,6 +208,8 @@
   (lock_assembly false)
   (device 039e6204-b5f3-4203-9966-a6511cfd43a4
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
+   (part "SG-210STF 25.0000ML0" (manufacturer "Seiko Epson Corporation")
+   )
   )
   (signal 40ccbe6a-e0c3-4bd7-a70a-4338ae420f36 (net b5b00946-6592-4114-8b2b-703b31a1582a))
   (signal 5c2d92f9-5655-460d-aa0c-0e895db6b03c (net 68e34880-aabd-41e8-8e29-314c19644c32))
@@ -578,7 +580,7 @@
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
   (name "R12") (value "{{RESISTANCE}}")
   (lock_assembly false)
-  (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "3.3"))
+  (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "4.7"))
   (device 483a71eb-318e-448e-82ff-f02efc4821aa
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -661,7 +663,7 @@
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
   (name "LED3") (value "{{MPN or COLOR}}")
   (lock_assembly false)
-  (attribute "COLOR" (type string) (unit none) (value ""))
+  (attribute "COLOR" (type string) (unit none) (value "GREEN"))
   (device eb665e84-d89d-4bbb-abbf-b3ff6b4d117a
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -724,7 +726,7 @@
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
   (name "R14") (value "{{RESISTANCE}}")
   (lock_assembly false)
-  (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "3.3"))
+  (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "4.7"))
   (device 483a71eb-318e-448e-82ff-f02efc4821aa
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -848,7 +850,7 @@
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
   (name "LED2") (value "{{MPN or COLOR}}")
   (lock_assembly false)
-  (attribute "COLOR" (type string) (unit none) (value ""))
+  (attribute "COLOR" (type string) (unit none) (value "RED"))
   (device eb665e84-d89d-4bbb-abbf-b3ff6b4d117a
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -987,7 +989,7 @@
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
   (name "LED1") (value "{{MPN or COLOR}}")
   (lock_assembly false)
-  (attribute "COLOR" (type string) (unit none) (value ""))
+  (attribute "COLOR" (type string) (unit none) (value "BLUE"))
   (device eb665e84-d89d-4bbb-abbf-b3ff6b4d117a
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -1071,7 +1073,7 @@
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
   (name "LED4") (value "{{MPN or COLOR}}")
   (lock_assembly false)
-  (attribute "COLOR" (type string) (unit none) (value ""))
+  (attribute "COLOR" (type string) (unit none) (value "YELLOW"))
   (device eb665e84-d89d-4bbb-abbf-b3ff6b4d117a
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )

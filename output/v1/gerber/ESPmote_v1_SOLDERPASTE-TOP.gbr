@@ -1,6 +1,6 @@
 G04 --- HEADER BEGIN --- *
 G04 #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.0.1*
-G04 #@! TF.CreationDate,2026-05-19T01:23:53*
+G04 #@! TF.CreationDate,2026-05-26T19:08:47*
 G04 #@! TF.ProjectId,ESPmote (ESPmote_WROOM32),c75d975a-3822-4103-ad87-6dcb39d2a138,v1*
 G04 #@! TF.Part,Single*
 G04 #@! TF.SameCoordinates*
@@ -368,5 +368,5 @@ G04 #@! TO.C,C7*
 X29000000Y85275000D03*
 X29000000Y86725000D03*
 G04 --- BOARD END --- *
-G04 #@! TF.MD5,8281e0fc650d1f1bb02c3c200007940c*
+G04 #@! TF.MD5,8a90d6afa762ce543fbfb7f469c1f7a5*
 M02*
