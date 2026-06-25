@@ -1,0 +1,14 @@
+# Pick&Place Position Data File
+#
+# Project Name:        ESPmote
+# Project Version:     v1
+# Board Name:          ESPmote_WROOM32
+# Generation Software: LibrePCB 2.0.1
+# Generation Date:     2026-06-07T20:54:13
+# Unit:                mm
+# Rotation:            Degrees CCW
+# Board Side:          Bottom
+# Assembly Types:      SMT, THT+SMT, Fiducial, Other
+
+Designator,Value,Device,Package,Position X,Position Y,Rotation,Side,Type
+U1,ESP32-WROOM-32,ESP32-WROOM-32,ESP32-WROOM-32,15.0,56.75,180.0,Bottom,SMT

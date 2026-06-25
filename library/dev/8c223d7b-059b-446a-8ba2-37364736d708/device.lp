@@ -1,0 +1,13 @@
+(librepcb_device 8c223d7b-059b-446a-8ba2-37364736d708
+ (name "Custom Fun Silk")
+ (description "Open Source Hardware logo.")
+ (keywords "open,source")
+ (author "Anshal Jain")
+ (version "0.1")
+ (created 2026-06-07T06:42:30Z)
+ (deprecated false)
+ (generated_by "")
+ (category 213bd44f-f375-41d8-8fdd-0652eb893e27)
+ (component 10118da4-3006-423e-99b4-076adb434065)
+ (package 0e7da6ef-fdda-446d-b32d-4defd98279b3)
+)

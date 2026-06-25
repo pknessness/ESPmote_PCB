@@ -346,7 +346,7 @@
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
   (name "C9") (value "{{CAPACITANCE}}")
   (lock_assembly false)
-  (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
+  (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value "0.1"))
   (device e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -376,7 +376,7 @@
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
   (name "C8") (value "{{CAPACITANCE}}")
   (lock_assembly false)
-  (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
+  (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value "0.1"))
   (device e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
@@ -535,6 +535,14 @@
   (signal 33616b61-b981-452a-a672-e564bfabf6b1 (net dcce0eb8-3731-4438-9a78-e29906835a10))
   (signal 4c215f30-3492-4a32-94d3-7f3541afb7db (net 786ac863-d783-404e-94d2-e2ffac4584b8))
  )
+ (component 2feab5cc-b14a-4bd2-8ea7-51daca8b9a1c
+  (lib_component 10118da4-3006-423e-99b4-076adb434065)
+  (lib_variant 5255f2cd-703c-4a41-95dc-54c341811cb6)
+  (name "OSHW2") (value "open source\nhardware")
+  (lock_assembly false)
+  (device 8c223d7b-059b-446a-8ba2-37364736d708
+  )
+ )
  (component 315b7da5-560c-4ce6-b3c5-6b9e4fee7a36
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
@@ -619,6 +627,14 @@
    (variant ecc679c5-fc19-4177-83eb-77fc7caa4669)
   )
   (signal 0a2f8ad3-5e0c-4d72-82d9-bd3edbd95475 (net da8dfafb-8451-467a-b06e-16b030cbdde5))
+ )
+ (component 3d66ce3c-7932-43e4-836a-b35fff2b1e16
+  (lib_component 10118da4-3006-423e-99b4-076adb434065)
+  (lib_variant 5255f2cd-703c-4a41-95dc-54c341811cb6)
+  (name "OSHW1") (value "open source\nhardware")
+  (lock_assembly false)
+  (device e0df6a4b-1064-4b65-94d5-510aa550e1eb
+  )
  )
  (component 40b6a8eb-4abf-4f63-9ae2-2747710de540
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)

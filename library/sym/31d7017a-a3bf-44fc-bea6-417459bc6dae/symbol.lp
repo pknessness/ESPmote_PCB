@@ -1,5 +1,5 @@
 (librepcb_symbol 31d7017a-a3bf-44fc-bea6-417459bc6dae
- (name "ESP32 Wroom 32")
+ (name "ESP32-WROOM-32")
  (description "An ESP32 module,  ESP32 Wroom 32 variant by Expressif.")
  (keywords "esp32,wroom,expressif")
  (author "Benjamin Kaiser")
